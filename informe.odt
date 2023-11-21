@@ -1,0 +1,28 @@
+HTML (index.html):
+enlaze la fuente de Google Fonts, los archivos CSS y JS.
+En el cuerpo (<body>), se creeun espacio con una <div> identificada con la clase "contenedor",
+que contiene un <input> donde el usuario ingresa el nombre del gif que desea buscar y 
+un botón para realizar la búsqueda. Además, se cree otro espacio identificado con la clase "resultado"
+para mostrar los gifs encontrados.
+
+
+JS (main.js):
+En la lógica del código, se seleccione los elementos "buscador" (input), 
+"buscar" (botón), y "resultado". Asigne la clave de la API a una constante.
+agrege un evento de click al botón de búsqueda, y cuando el usuario hace click,
+se construye la URL con los valores del input. Luego, se realiza la búsqueda y con appendChild, 
+se agregan los gifs encontrados a la sección de resultados.
+
+CSS (styles.css):
+En la hoja de estilo, reinicie el tamaño de margen y relleno a 0 
+y aplique el tipo de fuente de Google Fonts. En el "contenedor", 
+se centraron los elementos y se agregó margen. Al input "buscador", 
+aumente el ancho para lograr simetría y al botón "buscar", le cambie el fondo. 
+En la sección donde van los gifs "resultado", utilize el sistema de grillas, 
+dividiéndola en el formato solicitado (3x3) y aumentando la distancia entre ellos. 
+
+
+
+
+
+
